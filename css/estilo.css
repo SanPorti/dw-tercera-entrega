@@ -1,0 +1,680 @@
+/* -------RESET------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/* -------ANCHO MAXIMO------- */
+.ancho-maximo {
+  max-width: 1800px;
+  margin: auto; }
+
+/* -------NAV------- */
+.logo-size {
+  width: 150px; }
+
+.nav-fuente {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px; }
+
+.nav-padding {
+  padding: 30px; }
+
+.flex-nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.burguer {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 20px; }
+
+/* HOVER NAV */
+.nav-link:hover {
+  color: #e7a02e !important;
+  text-decoration: underline;
+  transition: 0.7s; }
+
+.burguer:hover {
+  color: #e7a02e;
+  transition: 0.7s; }
+
+@media (max-width: 450px) {
+  /* -------NAV------- */
+  .logo-size {
+    width: 70px; }
+  .container-fluid {
+    width: 350px; }
+  #navbarNav ul li {
+    padding: 5px; }
+  #navbarNav ul li a {
+    font-size: 16px; }
+  .flex-nav-list {
+    justify-content: flex-start;
+    padding-left: 1rem; } }
+
+/* -------BODY------- */
+body {
+  background-color: #38365f; }
+
+/* -------HOME------- */
+.info {
+  background-image: url("../imagenes/banner-home.jpg");
+  background-size: cover;
+  height: 1000px;
+  margin: 5px 0; }
+
+.quienes-somos {
+  padding: 200px 200px 200px 280px; }
+
+.info h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 4rem;
+  padding: 1.5rem 0 1rem 0;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.info p {
+  text-align: center;
+  padding: 10px 50px;
+  margin: 0 16rem;
+  font-family: Hind, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000; }
+
+.fdc .card {
+  display: none; }
+
+@media (max-width: 450px) {
+  .info {
+    display: none; }
+  .fdc img {
+    padding: 30px 0 20px 0; }
+  .fdc .card {
+    display: block;
+    margin: 10px auto 50px;
+    background-color: #38365f;
+    border: none;
+    height: 500px; }
+  .fdc h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px; }
+  .fdc p {
+    text-align: center;
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-align: justify !important; }
+  .body-estilo {
+    background-color: #0000007b;
+    border-radius: 1rem; }
+  .card-fdc {
+    margin-bottom: 150px !important; } }
+
+/* -------PELICULAS Y SERIES------- */
+.div-posters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px; }
+
+.section-peliculas-series h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 30px 100px 0 100px;
+  color: #ffffff; }
+
+.posters {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px 35px;
+  background-color: #000000;
+  width: 350px;
+  height: 493px;
+  transition: 0.5s ease-in-out; }
+
+.posters img {
+  width: 340px;
+  height: 450px; }
+
+.posters h3 {
+  font-family: Hind, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  padding-top: 5px; }
+
+/* HOVER POSTERS */
+.posters:hover {
+  border-color: #e7a02e;
+  transform: scale(1.05);
+  transition: 0.5s; }
+
+@media (max-width: 450px) {
+  .posters {
+    width: 250px;
+    height: 390px; }
+  .posters img {
+    width: 240px;
+    height: 350px; }
+  .posters h3 {
+    font-size: 16px;
+    padding-top: 10px; }
+  .section-peliculas-series h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 30px 40px 0 40px; }
+  .posters:hover {
+    border-color: #e7a02e;
+    box-shadow: 5px 5px 5px 5px #1d1d1d;
+    transition: 0.5s; } }
+
+/* -------PROXIMOS ESTRENOS------- */
+.medida-iframe {
+  width: 600px;
+  height: 400px; }
+
+.section-trailers h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 0 200px;
+  color: #ffffff; }
+
+.div-trailers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.trailers {
+  margin: 25px 50px;
+  width: 630px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out; }
+
+.trailers h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 0 0 1rem 0;
+  color: #ffffff; }
+
+.sinopsis h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 1rem 0 0 0;
+  color: #ffffff; }
+
+.sinopsis p {
+  padding: 1rem 0 0 0;
+  text-align: justify;
+  font-family: Hind, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff; }
+
+/* --------TRAILERS:HOVER-------- */
+.trailers:hover {
+  border-color: #e7a02e;
+  box-shadow: 0px 0px 20px 10px #1d1d1d;
+  transition: 0.7s; }
+
+@media (max-width: 450px) {
+  .section-trailers h1 {
+    font-size: 25px;
+    padding: 30px 0 0 0;
+    margin: 0 25px !important;
+    text-align: center; }
+  .trailers h2 {
+    font-size: 16px; }
+  .sinopsis h3 {
+    font-size: 14px; }
+  .sinopsis p {
+    padding: 1rem 0 0 0;
+    text-align: justify;
+    font-family: Hind, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff; }
+  .medida-iframe {
+    max-width: 280px;
+    max-height: 200px; }
+  .trailers {
+    margin: 10px auto;
+    max-width: 310px; } }
+
+/* ------NOTICIAS------ */
+.novedades h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 50px 20px 20px 20px;
+  margin: 0 190px;
+  color: #ffffff; }
+
+.noticias {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 20px;
+  margin: 10px;
+  transition: 0.5s ease-in-out; }
+
+.noticias h2 {
+  font-family: Hind, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #ffffff; }
+
+.noticias h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #ffffff; }
+
+.grilla-noticias {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+  grid-template-rows: 500px 400px;
+  grid-template-areas: "noticia1 noticia1 noticia4 noticia4" "noticia2 noticia3 noticia4 noticia4";
+  padding: 50px;
+  width: 1500px;
+  margin: auto; }
+
+#noticia1 {
+  grid-area: noticia1;
+  background-image: url("../imagenes/noticias-oscars.jpg");
+  background-size: cover; }
+
+#noticia2 {
+  grid-area: noticia2;
+  background-image: url("../imagenes/noticias-murphy.jpg");
+  background-size: cover; }
+
+#noticia3 {
+  grid-area: noticia3;
+  background-image: url("../imagenes/noticia-poor-things.jpg");
+  background-size: cover; }
+
+#noticia4 {
+  grid-area: noticia4;
+  background-image: url("../imagenes/noticia-tom-holland.webp");
+  background-size: cover; }
+
+/* -------NOTICIAS HOVER------- */
+.noticias:hover {
+  transform: scale(1.04);
+  transition: 0.5s; }
+
+@media (max-width: 450px) {
+  .novedades h1 {
+    font-size: 25px;
+    padding: 30px 0 0 0;
+    margin: 0 25px !important;
+    text-align: center; }
+  .grilla-noticias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 5px; }
+  .noticias h2 {
+    font-size: 1rem; }
+  .noticias h3 {
+    font-size: 14px; }
+  #noticia1 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/estatuilla-oscarjpg.jpg");
+    background-size: cover; }
+  #noticia2 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/cillian.jpeg");
+    background-size: cover; }
+  #noticia3 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/emma.jpg");
+    background-size: cover; }
+  #noticia4 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/tom.jpg");
+    background-size: cover; }
+  .noticias:hover {
+    border: 3px solid #e7a02e;
+    box-shadow: 0px 0px 20px 10px #1d1d1d;
+    transition: 0.5s; } }
+
+/* -------CONTACTO------- */
+.contacto {
+  display: flex;
+  width: 1800px;
+  justify-content: space-around;
+  align-items: center; }
+  .contacto .contenido-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contacto .contenido-vertical h1 {
+      font-family: Montserrat, sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 50px 20px 20px 20px;
+      margin: 0 190px;
+      color: #ffffff; }
+  .contacto .contenido-horizontal {
+    display: flex; }
+
+.card {
+  width: 700px;
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.card h5 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000; }
+
+.card p {
+  text-align: center;
+  font-family: Hind, sans-serif;
+  font-size: 25px;
+  color: #000000;
+  padding-top: 1rem; }
+
+form {
+  width: 700px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  margin: 30px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column; }
+
+input {
+  transition: .4s ease-in-out !important; }
+  input:focus {
+    background-color: #ffdba1 !important;
+    transform: scale(1.05); }
+
+textarea {
+  transition: .4s ease-in-out !important; }
+  textarea:focus {
+    background-color: #ffdba1 !important;
+    transform: scale(1.05); }
+
+.boton-size {
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  border-radius: 5px; }
+
+@media (max-width: 450px) {
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    align-content: center; }
+    .contacto .contenido-vertical {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contacto .contenido-vertical h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        margin: 0 25px 20px 25px;
+        text-align: center; }
+    .contacto .contenido-horizontal {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+  .card {
+    width: 300px;
+    padding: 5px;
+    margin: 10px; }
+  .card h5 {
+    text-align: center;
+    font-size: 1rem; }
+  .card p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px; }
+  form {
+    width: 300px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px; }
+  form label {
+    margin: 10px; }
+  .boton-size {
+    font-size: 14px; } }
+
+/* -------FOOTER------- */
+footer {
+  background-color: black; }
+
+footer li {
+  list-style: none; }
+
+footer ul {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0; }
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  margin: 0 70px;
+  font-family: Montserrat, sans-serif; }
+
+/* HOVER FOOTER */
+footer a:hover {
+  color: #e7a02e;
+  transition: 0.7s; }
+
+@media (max-width: 450px) {
+  /* -------FOOTER------- */
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 30px;
+    font-family: Montserrat, sans-serif; } }
+
+/* -------MEDIAS QUERYS - MOBILE LAST------- */
+@media (max-width: 450px) {
+  /* -------NAV------- */
+  .logo-size {
+    width: 70px; }
+  .container-fluid {
+    width: 350px; }
+  #navbarNav ul li {
+    padding: 5px; }
+  #navbarNav ul li a {
+    font-size: 16px; }
+  .flex-nav-list {
+    justify-content: flex-start;
+    padding-left: 1rem; }
+  /* -------HOME/FDC------- */
+  .info {
+    display: none; }
+  .fdc img {
+    padding: 30px 0 20px 0; }
+  .fdc .card {
+    display: block;
+    margin: 10px auto 50px;
+    background-color: #38365f;
+    border: none;
+    height: 500px; }
+  .fdc h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px; }
+  .fdc p {
+    text-align: center;
+    font-size: 1rem !important;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-align: justify !important; }
+  .body-estilo {
+    background-color: #0000007b;
+    border-radius: 1rem; }
+  .card-fdc {
+    margin-bottom: 150px !important; }
+  /* -------PELICULAS Y SERIES------- */
+  .posters {
+    width: 250px;
+    height: 390px; }
+  .posters img {
+    width: 240px;
+    height: 350px; }
+  .posters h3 {
+    font-size: 16px;
+    padding-top: 10px; }
+  .section-peliculas-series h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 30px 40px 0 40px; }
+  /* -------PROXIMOS ESTRENOS------- */
+  .section-trailers h1 {
+    font-size: 25px;
+    padding: 30px 0 0 0;
+    margin: 0;
+    text-align: center; }
+  .trailers h2 {
+    font-size: 16px; }
+  .sinopsis h3 {
+    font-size: 14px; }
+  .sinopsis p {
+    padding: 1rem 0 0 0;
+    text-align: justify;
+    font-family: Hind, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff; }
+  .medida-iframe {
+    max-width: 280px;
+    max-height: 200px; }
+  .trailers {
+    margin: 10px auto;
+    max-width: 310px; }
+  /* -------NOTICIAS------- */
+  .novedades h1 {
+    font-size: 25px;
+    padding: 30px 0 0 0;
+    margin: 0;
+    text-align: center; }
+  .grilla-noticias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 5px; }
+  .noticias h2 {
+    font-size: 1rem; }
+  .noticias h3 {
+    font-size: 14px; }
+  #noticia1 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/estatuilla-oscarjpg.jpg");
+    background-size: cover; }
+  #noticia2 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/cillian.jpeg");
+    background-size: cover; }
+  #noticia3 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/emma.jpg");
+    background-size: cover; }
+  #noticia4 {
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagenes/tom.jpg");
+    background-size: cover; }
+  /* -------CONTACTO------- */
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    align-content: center; }
+  .card {
+    width: 300px;
+    padding: 5px;
+    margin: 10px; }
+  .card h5 {
+    text-align: center;
+    font-size: 1rem; }
+  .card p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 500; }
+  form {
+    width: 300px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px; }
+  form label {
+    margin: 10px; }
+  .boton-size {
+    font-size: 14px; }
+  /* -------FOOTER------- */
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 30px;
+    font-family: Montserrat, sans-serif; } }

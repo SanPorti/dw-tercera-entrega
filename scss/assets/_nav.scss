@@ -1,0 +1,65 @@
+/* -------NAV------- */
+
+.logo-size {
+    width: 150px;
+}
+
+.nav-fuente {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+}
+
+.nav-padding {
+    padding: 30px;
+}
+
+.flex-nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.burguer {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* HOVER NAV */
+.nav-link:hover {
+    color: #e7a02e !important;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+.burguer:hover {
+    color: #e7a02e;
+    transition: 0.7s;
+}
+
+@media (max-width: 450px) {
+
+    /* -------NAV------- */
+
+    .logo-size {
+        width: 70px;
+    }
+
+    .container-fluid {
+        width: 350px;
+    }
+
+    #navbarNav ul li {
+        padding: 5px;
+    }
+
+    #navbarNav ul li a {
+        font-size: 16px;
+    }
+
+    .flex-nav-list {
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+
+}

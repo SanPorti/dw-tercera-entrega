@@ -1,0 +1,83 @@
+/* -------HOME------- */
+
+.info {
+    background-image: url('../imagenes/banner-home.jpg');
+    background-size: cover;
+    height: 1000px;
+    margin: 5px 0;
+}
+
+.quienes-somos {
+    padding: 200px 200px 200px 280px;
+}
+
+.info h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 4rem;
+    padding: 1.5rem 0 1rem 0;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.info p {
+    text-align: center;
+    padding: 10px 50px;
+    margin: 0 16rem;
+    font-family: Hind, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.fdc .card {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .info {
+        display: none;
+    }
+    
+    .fdc img {
+        padding: 30px 0 20px 0;
+    }
+
+    .fdc .card {
+        display: block;
+        margin: 10px auto 50px;
+        background-color: #38365f;
+        border: none;
+        height: 500px;
+    }
+
+    .fdc h1 {
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .fdc p {
+        text-align: center;
+        font-size: 1rem !important;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-align: justify !important;
+    }
+
+    .body-estilo {
+        background-color: #0000007b;
+        border-radius: 1rem;
+    }
+
+    .card-fdc {
+        margin-bottom: 150px !important;
+    }
+
+}

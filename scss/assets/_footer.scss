@@ -1,0 +1,43 @@
+/* -------FOOTER------- */
+footer {
+    background-color: black;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 0 70px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* HOVER FOOTER */
+footer a:hover {
+    color: #e7a02e;
+    transition: 0.7s;
+}
+
+@media (max-width: 450px) {
+
+    /* -------FOOTER------- */
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 0 30px;
+        font-family: Montserrat, sans-serif;
+    }
+
+}

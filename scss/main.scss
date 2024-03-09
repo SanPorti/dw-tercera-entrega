@@ -1,0 +1,274 @@
+// Reseteo 
+@import './assets/reset';
+
+// Ancho Maximo 
+@import './assets/ancho-maximo';
+
+// Tipografias
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap');
+
+// Nav 
+@import './assets/nav';
+
+// Body 
+@import './assets/body'; 
+
+// Home 
+@import './assets/home';
+
+// Peliculas y Series 
+@import './assets/peliculas-series';
+
+// Trailers 
+@import './assets/trailers-proximos-estrenos';
+
+// Noticias 
+@import './assets/noticias';
+
+// Contacto 
+@import './assets/contacto';
+
+// Footer 
+@import './assets/footer';
+
+/* -------MEDIAS QUERYS - MOBILE LAST------- */
+
+@media (max-width: 450px) {
+
+    /* -------NAV------- */
+
+    .logo-size {
+        width: 70px;
+    }
+
+    .container-fluid {
+        width: 350px;
+    }
+
+    #navbarNav ul li {
+        padding: 5px;
+    }
+
+    #navbarNav ul li a {
+        font-size: 16px;
+    }
+
+    .flex-nav-list {
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+
+    /* -------HOME/FDC------- */
+
+    .info {
+        display: none;
+    }
+    
+    .fdc img {
+        padding: 30px 0 20px 0;
+    }
+
+    .fdc .card {
+        display: block;
+        margin: 10px auto 50px;
+        background-color: #38365f;
+        border: none;
+        height: 500px;
+    }
+
+    .fdc h1 {
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .fdc p {
+        text-align: center;
+        font-size: 1rem !important;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 1rem;
+        text-align: justify !important;
+    }
+
+    .body-estilo {
+        background-color: #0000007b;
+        border-radius: 1rem;
+    }
+
+    .card-fdc {
+        margin-bottom: 150px !important;
+    }
+
+    /* -------PELICULAS Y SERIES------- */
+
+    .posters {
+        width: 250px;
+        height: 390px;
+    }
+
+    .posters img {
+        width: 240px;
+        height: 350px;
+    }
+
+    .posters h3 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .section-peliculas-series h2 {
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+        padding: 30px 40px 0 40px;
+    }
+
+    /* -------PROXIMOS ESTRENOS------- */
+
+    .section-trailers h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .trailers h2 {
+        font-size: 16px;
+    }
+
+    .sinopsis h3 {
+        font-size: 14px;
+    }
+
+    .sinopsis p {
+        padding: 1rem 0 0 0;
+        text-align: justify;
+        font-family: Hind, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .medida-iframe {
+        max-width: 280px;
+        max-height: 200px;
+    }
+
+    .trailers {
+        margin: 10px auto;
+        max-width: 310px;
+    }
+
+    /* -------NOTICIAS------- */
+
+    .novedades h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .grilla-noticias {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .noticias h2 {
+        font-size: 1rem;
+    }
+
+    .noticias h3 {
+        font-size: 14px;
+    }
+
+    #noticia1 {
+        width: 300px;
+        height: 300px;
+        background-image: url('../imagenes/estatuilla-oscarjpg.jpg');
+        background-size: cover;
+    }
+
+    #noticia2 {
+        width: 300px;
+        height: 300px;
+        background-image: url('../imagenes/cillian.jpeg');
+        background-size: cover;
+    }
+
+    #noticia3 {
+        width: 300px;
+        height: 300px;
+        background-image: url('../imagenes/emma.jpg');
+        background-size: cover;
+    }
+
+    #noticia4 {
+        width: 300px;
+        height: 300px;
+        background-image: url('../imagenes/tom.jpg');
+        background-size: cover;
+    }
+
+    /* -------CONTACTO------- */
+
+    .contacto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        align-items: center;
+        margin: auto;
+        align-content: center;
+    }
+
+    .card {
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .card h5 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+
+    form {
+        width: 300px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    form label {
+        margin: 10px;
+    }
+
+    .boton-size {
+        font-size: 14px;
+    }
+
+    /* -------FOOTER------- */
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 0 30px;
+        font-family: Montserrat, sans-serif;
+    }
+
+}

@@ -1,0 +1,106 @@
+/* -------PROXIMOS ESTRENOS------- */
+
+.medida-iframe {
+    width: 600px;
+    height: 400px;
+}
+
+.section-trailers h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0 200px;
+    color: #ffffff;
+}
+
+.div-trailers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trailers {
+    margin: 25px 50px;
+    width: 630px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.trailers h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 0 0 1rem 0;
+    color: #ffffff;
+}
+
+.sinopsis h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 1rem 0 0 0;
+    color: #ffffff;
+}
+
+.sinopsis p {
+    padding: 1rem 0 0 0;
+    text-align: justify;
+    font-family: Hind, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* --------TRAILERS:HOVER-------- */
+
+.trailers:hover {
+    border-color: #e7a02e;
+    box-shadow: 0px 0px 20px 10px rgb(29, 29, 29);
+    transition: 0.7s;
+}
+
+@media (max-width: 450px) {
+
+    .section-trailers h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        margin: 0 25px !important;
+        text-align: center;
+    }
+
+    .trailers h2 {
+        font-size: 16px;
+    }
+
+    .sinopsis h3 {
+        font-size: 14px;
+    }
+
+    .sinopsis p {
+        padding: 1rem 0 0 0;
+        text-align: justify;
+        font-family: Hind, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .medida-iframe {
+        max-width: 280px;
+        max-height: 200px;
+    }
+
+    .trailers {
+        margin: 10px auto;
+        max-width: 310px;
+    }
+
+}

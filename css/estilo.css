@@ -389,6 +389,7 @@ body {
     .contacto .contenido-vertical h1 {
       font-family: Montserrat, sans-serif;
       font-size: 50px;
+      width: 1500px;
       font-weight: 600;
       text-transform: uppercase;
       padding: 50px 20px 20px 20px;
@@ -460,6 +461,7 @@ textarea {
       align-items: center; }
       .contacto .contenido-vertical h1 {
         font-size: 25px;
+        width: 250px;
         padding: 30px 0 0 0;
         margin: 0 25px 20px 25px;
         text-align: center; }

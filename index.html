@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="En Fans del Cine (FDC) podras encontrar noticias, trailers, recomendaciones, entre muchas otras cosas, de peliculas y series ¡Enterate de todo acá!">
+    <meta name="description"
+        content="En Fans del Cine (FDC) podras encontrar noticias, trailers, recomendaciones, entre muchas otras cosas, de peliculas y series ¡Enterate de todo acá!">
     <meta name="keywords" content="Cine, Peliculas, Series, Trailers, Estrenos, Noticias Cine, Tendencias, Clasicos">
     <title>FDC | FANS DEL CINE</title>
     <link rel="shortcut icon" href="./imagenes/logo-claqueta.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,7 +44,8 @@
                                     href="pages/peliculas-series.html">PELÍCULAS/SERIES</a>
                             </li>
                             <li class="nav-item nav-padding">
-                                <a class="nav-link text-white nav-fuente" href="pages/proximos-estrenos.html">TRAILERS</a>
+                                <a class="nav-link text-white nav-fuente"
+                                    href="pages/proximos-estrenos.html">TRAILERS</a>
                             </li>
                             <li class="nav-item nav-padding">
                                 <a class="nav-link text-white nav-fuente" href="pages/noticias.html">NOTICIAS</a>
@@ -62,36 +64,93 @@
     <div class="ancho-maximo">
         <main>
             <div class="fdc">
-                <section class="info animate__animated animate__fadeIn">
-                    <div class="quienes-somos animate__animated animate__jackInTheBox animate__delay-1s">
-                        <h1 class="animate__animated animate__bounce animate__delay-3s">¿Quiénes Somos?</h1>
-                        <p>Fans del Cine (FDC), es una idea que surgió una noche en una reunión entre amigos. Todos los que
+                <div class="banner">
+                    <img src="./imagenes/fans-del-cine.png" alt="FDC" class="animate__animated animate__zoomIn">
+                    <h1 class="animate__animated animate__lightSpeedInLeft animate__delay-1s">Sobre Nosotros
+                        <hr>
+                    </h1>
+                </div>
+                <div class="cards-index animate__animated animate__fadeInUp animate__delay-2s">
+                    <article class="cards-home">
+                        <section id="card-1">
+                            <div class="card" style="width: 30rem;">
+                                <img src="./imagenes/grupo-fdc.png" class="card-img-top" alt="Signos de Pregunta">
+                                <div class="card-body">
+                                    <h5 class="card-title">¿Quiénes Somos?</h5>
+                                    <p class="card-text">Fans del Cine (FDC), es una idea que surgió una noche en una
+                                        reunión entre
+                                        amigos. Todos los que
+                                        formamos
+                                        parte
+                                        somos
+                                        apasionados de las historias que se cuentan tanto en la pantalla grande, como en
+                                        la chica.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="card-2">
+                            <div class="card" style="width: 30rem;">
+                                <img src="./imagenes/lupa.png" class="card-img-top" alt="Lupa">
+                                <div class="card-body">
+                                    <h5 class="card-title">¿Qué encontrarás?</h5>
+                                    <p class="card-text">Aquí
+                                        podras
+                                        encontrar recomendaciones, tanto de películas como de series, próximos estrenos,
+                                        trailers,
+                                        noticias, lo ultimo sobre las nominaciones y premiaciones, reseñas, criticas y
+                                        muchas cosas más!</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="card-3">
+                            <div class="card" style="width: 30rem;">
+                                <img src="./imagenes/sugerencias.png" class="card-img-top" alt="Sugerencias">
+                                <div class="card-body">
+                                    <h5 class="card-title">¿Quéres formar parte de la comunidad de FDC?</h5>
+                                    <p class="card-text">Comunicate con nosotros, contanos porque queres formar parte
+                                        del equipo y que podrias
+                                        aportar a
+                                        nuestra comunidad. ¡Te esperamos, más ojos, mas cine!</p>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                </div>
+                <div class="card card-fdc card-mobile" style="width: 18rem;">
+                    <img src="./imagenes/fans-del-cine.png" class="card-img-top animate__animated animate__flip"
+                        alt="FDC Tarjeta">
+                    <h1 class="animate__animated animate__lightSpeedInLeft animate__delay-1s">Sobre Nosotros
+                        <hr>
+                    </h1>
+                    <div class="card-body body-estilo animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="./imagenes/grupo-fdc.png" class="card-img-top" alt="Signos de Pregunta">
+                        <h5 class="card-title">¿Quiénes Somos?</h5>
+                        <p class="card-text">Fans del Cine (FDC), es una idea que surgió una noche en una reunión entre
+                            amigos. Todos los que
                             formamos
                             parte
                             somos
-                            apasionados de las historias que se cuentan tanto en la pantalla grande, como en la chica. Aquí
-                            podras
-                            encontrar recomendaciones, tanto de películas como de series, próximos estrenos, trailers,
-                            noticias,
-                            entre
-                            otras cosas.
+                            apasionados de las historias que se cuentan tanto en la pantalla grande, como en la chica.
                         </p>
                     </div>
-                </section>
-                <div class="card card-fdc" style="width: 18rem;">
-                    <img src="./imagenes/fans-del-cine.png" class="card-img-top animate__animated animate__flip" alt="FDC Tarjeta">
-                    <div class="card-body body-estilo animate__animated animate__fadeInUp">
-                        <h1 class="card-title">¿Quiénes Somos?</h1>
-                        <p class="card-text">Fans del Cine (FDC), es una idea que surgió una noche en una reunión entre amigos. Todos los que
-                            formamos
-                            parte
-                            somos
-                            apasionados de las historias que se cuentan tanto en la pantalla grande, como en la chica. Aquí
+                    <div class="card-body body-estilo animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="./imagenes/lupa.png" class="card-img-top" alt="Lupa">
+                        <h5 class="card-title">¿Qué encontrarás?</h5>
+                        <p class="card-text">Aquí
                             podras
-                            encontrar recomendaciones, tanto de películas como de series, próximos estrenos, trailers,
-                            noticias,
-                            entre
-                            otras cosas.</p>
+                            encontrar recomendaciones, tanto de películas como de series, próximos estrenos,
+                            trailers,
+                            noticias, lo ultimo sobre las nominaciones y premiaciones, reseñas, criticas y
+                            muchas cosas más!</p>
+                    </div>
+                    <div class="card-body body-estilo animate__animated animate__fadeInUp animate__delay-2s">
+                        <img src="./imagenes/sugerencias.png" class="card-img-top" alt="Sugerencias">
+                        <h5 class="card-title">¿Quéres formar parte de la comunidad de FDC?</h5>
+                        <p class="card-text">Comunicate con nosotros, contanos porque queres formar parte
+                            del equipo y que podrias
+                            aportar a
+                            nuestra comunidad. ¡Te esperamos, más ojos, mas cine!</p>
                     </div>
                 </div>
             </div>

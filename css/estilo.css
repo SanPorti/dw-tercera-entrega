@@ -13,14 +13,14 @@
 
 /* -------NAV------- */
 .logo-size {
-  width: 150px; }
+  width: 80px; }
 
 .nav-fuente {
   font-family: Montserrat, sans-serif;
-  font-size: 25px; }
+  font-size: 20px; }
 
 .nav-padding {
-  padding: 30px; }
+  padding: 20px; }
 
 .flex-nav-list {
   width: 100%;
@@ -73,7 +73,7 @@ body {
 .fdc .banner h1 {
   text-align: center;
   font-family: Montserrat, sans-serif;
-  font-size: 4rem;
+  font-size: 40px;
   padding: 1.5rem 0 1rem 0;
   color: #ffffff;
   font-weight: 600;
@@ -120,12 +120,11 @@ body {
 .div-posters {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 10px; }
 
 .section-peliculas-series h2 {
   font-family: Montserrat, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 30px 100px 0 100px;
@@ -149,7 +148,7 @@ body {
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   padding-top: 5px; }
 
@@ -186,7 +185,7 @@ body {
 
 .section-trailers h1 {
   font-family: Montserrat, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 20px;
@@ -208,7 +207,7 @@ body {
 
 .trailers h2 {
   font-family: Montserrat, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: underline;
@@ -217,7 +216,7 @@ body {
 
 .sinopsis h3 {
   font-family: Montserrat, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: underline;
@@ -230,7 +229,8 @@ body {
   font-family: Hind, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 14px; }
 
 /* --------TRAILERS:HOVER-------- */
 .trailers:hover {
@@ -265,7 +265,7 @@ body {
 /* ------NOTICIAS------ */
 .novedades h1 {
   font-family: Montserrat, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 50px 20px 20px 20px;
@@ -281,7 +281,7 @@ body {
 
 .noticias h2 {
   font-family: Hind, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: underline;
@@ -289,7 +289,7 @@ body {
 
 .noticias h3 {
   font-family: Montserrat, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   text-decoration: underline;
   color: #ffffff; }
@@ -381,7 +381,7 @@ body {
     align-items: center; }
     .contacto .contenido-vertical h1 {
       font-family: Montserrat, sans-serif;
-      font-size: 50px;
+      font-size: 30px;
       width: 1500px;
       font-weight: 600;
       text-transform: uppercase;
@@ -399,17 +399,22 @@ body {
   flex-direction: column;
   justify-content: center; }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .card h5 {
   text-align: center;
   font-family: Montserrat, sans-serif;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 600;
   color: #000000; }
 
 .card p {
   text-align: center;
   font-family: Hind, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   color: #000000;
   padding-top: 1rem; }
 
@@ -417,7 +422,7 @@ form {
   width: 700px;
   text-align: center;
   font-family: Montserrat, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   margin: 30px;
   color: #ffffff;
   display: flex;
@@ -491,7 +496,7 @@ footer li {
   list-style: none; }
 
 footer ul {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -500,7 +505,7 @@ footer ul {
 footer a {
   text-decoration: none;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   margin: 0 70px;
   font-family: Montserrat, sans-serif; }
 

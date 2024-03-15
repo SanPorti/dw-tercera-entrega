@@ -13,7 +13,7 @@
 
         h1 {
             font-family: Montserrat, sans-serif;
-            font-size: 50px;
+            font-size: 30px;
             width: 1500px;
             font-weight: 600;
             text-transform: uppercase;
@@ -37,10 +37,16 @@
     justify-content: center;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .card h5 {
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 600;
     color: #000000;
 }
@@ -48,7 +54,7 @@
 .card p {
     text-align: center;
     font-family: Hind, sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     color: #000000;
     padding-top: 1rem;
 }
@@ -57,7 +63,7 @@ form {
     width: 700px;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin: 30px;
     color: #ffffff;
     display: flex;

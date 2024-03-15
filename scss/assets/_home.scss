@@ -30,6 +30,16 @@
     justify-content: space-around;
 }
 
+.card {
+    background-color: #51507ca1;
+    h5 {
+        color: #ffffff !important;
+    }
+    p {
+        color: #ffffff !important;
+    }
+}
+
 @media (max-width: 450px) {
 
     .fdc {
@@ -45,7 +55,11 @@
 
     .card-mobile {
         display: block !important;
-        min-height: 1900px;
+        min-height: 2000px;
+    }
+
+    .card-body {
+        background-color: #51507ca1 !important;
     }
 
     .fdc .banner h1 {
